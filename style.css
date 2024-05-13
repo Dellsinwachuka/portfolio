@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Enriqueta:wght@400;500;600;700&family=Gilda+Display&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Enriqueta:wght@400;500;600;700&family=Gilda+Display&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Enriqueta:wght@400;500;600;700&family=Gilda+Display&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ .navbar{
+    display: flex;
+    width: 100%;
+ } 
+ .navloggo h1{
+    font-family: Cinzel;
+    font-size: 30px;
+    margin-top: 50px;
+
+ }
+ .navlinks {
+    margin-left: 450px;
+   
+ }
+ .navlinks a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+ 
+ }
+ .navlinks a:hover{
+    color: #03c7bb;
+    border-bottom: #000;
+    transition-duration: 0.9s;
+ }
+.hero{
+    width: 100%;
+    display: flex;
+}
+.hero .text{
+    width: 50%;
+    margin-top: 250px;
+}
+.hero .btn{
+    color: white;
+    background-color: #03c7bb;
+    width: 95px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    align-self: center;
+}
+
+.hero .image-container{
+    width: 50%;
+}
+.about{
+    width: 100%;
+    display: flex;
+}
+.imageu{
+    width: 50%;
+}
+.mission{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 175px;
+}
+.skill{
+    margin-top: 70px;
+}
+.skill h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.skill p{
+    text-align: center;
+}
+.skill h4{
+    font-size: 35px;
+    text-align: center;
+}
+.skill ul li{
+    list-style: none;   
+}
+.row{
+    text-align: center;
+    padding: 10px;
+
+}
+.flex{
+    display: flex;
+}
+.flex h4{
+    font-size: 14px;
+    margin-left: 300px;
+}
+.progress{
+    width: 450px;
+    height: 10px;
+    color: #03c7bb;
+    margin-left: 175px;
+    margin-top: -10px;
+    
+}
+.flex h1{
+    font-weight: 200;
+    text-align: center;
+}
+
+
+.langu{
+    text-align: center;
+}
+.langu ul li{
+    list-style: none;
+}
+
+.project h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+    
+}
+
+.frontend{
+    margin-left: 30px;
+    
+}
+.image-wrapper{
+    width: 250px;
+    height: 250px;
+}
+.image-wrapper img{
+    width: 250px;
+    height: 250px;
+}
+.social{
+    display: flex;
+}
+
+
+.contact h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.contact .btn{
+    color: white;
+    background-color: #03c7bb;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    margin-left: 1100px;
+
+}
+.education{
+    text-align: center;
+}
+.flexs{
+    display: flex;
+    margin-left: 300px;
+    padding-top: 25px;
+
+}
+.limuru{
+    margin-left: 50px;
+}
+.tau ul li{
+    margin-top: 8px;
+}
+.socials{
+    display: flex;
+}
+.social{
+    margin-left: 320px;
+    margin-top: 25px;
+}
+.social i{
+    font-size: 20px;
+}
+.social h5{
+    font-size: 14px;
+}
